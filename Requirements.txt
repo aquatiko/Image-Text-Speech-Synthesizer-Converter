@@ -1,0 +1,17 @@
+1. Active Internet Connection
+2. gtts library (pip install gtts)
+3. pytesseract library (pip install pytesseract)
+4. pillow or PIL library (pip install pillow)
+
+*** If some error occurs using pytesseract , PATH must be 
+		missing in environment variables.
+
+Probable Fixes:
+1. Install tesseract manually
+	https://sourceforge.net/projects/tesseract-ocr-alt/
+
+2. Set PATH, see this
+	https://stackoverflow.com/questions/34225927/pytesseract-cannot-find-the-file-specified
+
+3. See Python docs
+	https://pypi.org/project/pytesseract/
